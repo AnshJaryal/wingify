@@ -1,0 +1,61 @@
+# -----------------------------
+# PYTHON & FASTAPI PROJECT IGNORE FILE
+# -----------------------------
+
+# Virtual environments
+proenv/
+venv/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files
+*.env
+.env.*
+# Do not commit private tokens
+GEMINI_API_KEY
+SERPER_API_KEY
+
+# Logs
+*.log
+logs/
+
+
+# CrewAI temporary files
+crewai_workspace/
+crewai_output/
+crewai_logs/
+
+# Model artifacts
+*.bin
+*.pth
+*.h5
+*.tflite
+
+# Uploads
+uploads/
+uploaded_files/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Python build artifacts
+dist/
+build/
+*.egg-info/
+
+# Lancedb / vector DB
+*.so
+*_lancedb*
